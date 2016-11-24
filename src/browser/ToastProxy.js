@@ -6,7 +6,7 @@ var Toast = function () {
 Toast.show = function (success, fail, args) {
     //alert(args[0].message);
     swal({
-      text: args[0].message,
+      title: args[0].message,
       timer: 3000,
       showConfirmButton: true
     });
