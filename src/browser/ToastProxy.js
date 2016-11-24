@@ -3,8 +3,9 @@
 var Toast = function () {
 };
 
-Toast.show = function (msg) {
-    alert(msg);
+Toast.show = function (success, fail, args) {
+    alert(args[0].message);
+    success();
 };
 
 module.exports = Toast;
