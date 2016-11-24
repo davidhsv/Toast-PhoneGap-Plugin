@@ -49,6 +49,14 @@
     <framework src="QuartzCore.framework" />
   </platform>
 
+        
+  <!--browser-->
+  <platform name="browser">
+    <js-module src="src/browser/Toast.js" name="Toast">
+      <merges target="" />
+    </js-module>
+  </platform>
+        
   <!-- android -->
   <platform name="android">
 
