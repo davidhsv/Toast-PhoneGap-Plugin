@@ -52,7 +52,7 @@
         
   <!--browser-->
   <platform name="browser">
-    <js-module src="src/browser/Toast.js" name="Toast">
+    <js-module src="src/browser/Toast.js" name="ToastProxy">
       <merges target="" />
     </js-module>
   </platform>
