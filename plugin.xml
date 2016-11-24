@@ -58,7 +58,7 @@
         </feature>
     </config-file>
 
-    <js-module src="src/browser/Toast.js" name="ToastProxy">
+    <js-module src="src/browser/ToastProxy.js" name="ToastProxy">
         <runs />
     </js-module>
   </platform>
